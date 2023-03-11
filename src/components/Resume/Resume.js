@@ -11,7 +11,10 @@ function Resume() {
       {/* <Particle2 /> */}
       <Container fluid className="resume-section">
         <Container>
+          
           <Row style={{ justifyContent: "center", position: "relative" }}>
+            
+          
             <Button variant="primary" href={pdf} target="_blank">
               <AiOutlineDownload />
               &nbsp;Download CV
@@ -52,6 +55,27 @@ function Resume() {
 
        
             </Col>
+
+
+   {/* Experince */}
+   <Col md={6} className="resume-right">
+              <h3 className="resume-title">Experience</h3>
+                
+              <Resumecontent
+                title="Ford Motor Company"
+                // date="2022 – Present"
+                
+                content={[
+                  "Software Engineer",
+                  "2021 - Present",
+                  "Working ongateway technologies as DataPower and APIC/APIGEE doing automation using cloud technology"
+                ]}
+              />
+
+            </Col>
+         
+
+
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button variant="primary" href={pdf} target="_blank">
