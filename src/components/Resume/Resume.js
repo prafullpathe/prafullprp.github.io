@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/praful_resume.pdf";
+import pdf from "../../Assets/Praful_pathe_resume_2023.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
