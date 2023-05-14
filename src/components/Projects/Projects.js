@@ -19,31 +19,53 @@ function Projects() {
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
            
-            {/* Home-Automamtio -------------------------------------------------------------------*/}
+            {/*covid-19*/}
             <Col md={6} className="project-card">
               <ProjectCard
                 isBlog={false}
-                title="Home Automation"
-                tool=" IOT"
-                description="Home automation by iot help with nodemcu and 5v relay"
+                title=" Detection of COVID 19 by studying chest x-ray images in keras"
+                tool=" CNN, keras, python, js"
+                description=" detect COVID-19 in by using X-ray image dataset using Keras, TensorFlow, and Deep Learning."
                 // link="https://github.com/SachinMasai/bigbasket"
                 // demoLink="https://magenta-pavlova-41c54f.netlify.app/"
               />
             </Col>
 
 
-    {/* Automatic Fertilizer maker -------------------------------------------------------------------*/}
+    {/* IOT*/}
     <Col md={6} className="project-card">
               <ProjectCard
                 isBlog={false}
-                title="Automatic Fertilizer Maker"
+                title=" IOT based home automation"
                 tool=" IOT"
-                description="Associated with Priyadarshini Indira Gandhi College of Engineering, Hingna Road"
+                description="Automation of all the electric board and switches with the help of IOT.Used devices are Node mcu Esp8266, 5V relay etc"
                 // link="https://github.com/SachinMasai/bigbasket"
                 // demoLink="https://magenta-pavlova-41c54f.netlify.app/"
               />
             </Col>
 
+ {/*DP*/}
+    <Col md={6} className="project-card">
+              <ProjectCard
+                isBlog={false}
+                title=" DataPower OpenShift Container platform"
+                tool="openshift, kubernetes"
+                description="Deployed the DataPower middleware to work in redhat OpenShift container platform"
+                // link="https://github.com/SachinMasai/bigbasket"
+                // demoLink="https://magenta-pavlova-41c54f.netlify.app/"
+              />
+            </Col>
+{/fertilizer*/}
+    <Col md={6} className="project-card">
+              <ProjectCard
+                isBlog={false}
+                title=" Automatic fertilizer maker"
+                tool="IOT"
+                description="A low-cost automatic fertilizer maker from waste. Created using IOT (node mcu, relay and components),worked on solar light and energy efficient"
+                // link="https://github.com/SachinMasai/bigbasket"
+                // demoLink="https://magenta-pavlova-41c54f.netlify.app/"
+              />
+            </Col>
 
 
 
