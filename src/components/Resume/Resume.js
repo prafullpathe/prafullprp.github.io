@@ -66,9 +66,9 @@ function Resume() {
                 // date="2022 – Present"
                 
                 content={[
-                  "Software Engineer",
+                  "Software Engineer (DataPower ADMIN)",
                   "2021 - Present",
-                  "Working ongateway technologies as DataPower and APIC/APIGEE doing automation using cloud technology"
+                  "Working on gateway technologies as DataPower and APIC/APIGEE. Alogside doing automation using cloud technology"
                 ]}
               />
 
