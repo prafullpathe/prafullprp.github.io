@@ -27,7 +27,7 @@ function Home() {
               </h6>
               <h4 className="sub-heading-name">
                 From
-                <strong className="main-name"> Chhindwara, Madhya Pradesh</strong>
+                <strong className="main-name"> India</strong>
               </h4>
               <div style={{ paddingLeft: 45, textAlign: "left" }}>
                 <Type />
