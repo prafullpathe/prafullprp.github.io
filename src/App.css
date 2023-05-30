@@ -3,7 +3,8 @@
 }
 
 * {
-  user-select: none !important;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .App-logo {
