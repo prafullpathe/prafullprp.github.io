@@ -83,7 +83,7 @@ html {
   background-color: #330930d8 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(14, 4, 65, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  
 }
 
 .navbar {

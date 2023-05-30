@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/praful_resume.pdf";
+import pdf from "../../Assets/Praful_pathe_resume_2023.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -11,7 +11,10 @@ function Resume() {
       {/* <Particle2 /> */}
       <Container fluid className="resume-section">
         <Container>
+          
           <Row style={{ justifyContent: "center", position: "relative" }}>
+            
+          
             <Button variant="primary" href={pdf} target="_blank">
               <AiOutlineDownload />
               &nbsp;Download CV
@@ -52,6 +55,32 @@ function Resume() {
 
        
             </Col>
+
+
+   {/* Experince */}
+   <Col md={6} className="resume-right">
+              <h3 className="resume-title">Experience</h3>
+                
+              <Resumecontent
+                title="Ford Motor Company"
+                // date="2022 – Present"
+                
+                content={[
+                  "Software Engineer",
+                  "2021 - Present",
+                  "Working ongateway technologies as DataPower and APIC/APIGEE doing automation using cloud technology",
+
+                  "Software Engineer (DataPower ADMIN)",
+                  "2021 - Present",
+                  "Working on gateway technologies as DataPower and APIC/APIGEE. Alogside doing automation using cloud technology"
+
+                ]}
+              />
+
+            </Col>
+         
+
+
           </Row>
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button variant="primary" href={pdf} target="_blank">

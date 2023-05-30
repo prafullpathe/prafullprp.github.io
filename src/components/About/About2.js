@@ -12,12 +12,10 @@ function About2() {
                         </h1>
                         <p className="home-about-body">
                             <span className="myabout first-about">
-                            Software Engineer who graduated in CSE and had some experience
-                             in web and security . Skilled in Java, Internet of Things, MongoDB,
-                              Python (Programming Language), and JavaScript. Strong engineering
-                               professional with a Bachelor of Engineering - BE focused in 
-                               Computer Science from Rashtrasant Tukadoji Maharaj Nagpur
-                                University.
+                                My name is Prafull and I'm a software engineer with passion for solving complex problems and creating innovative solutions.
+                                I graduated in 2021 with a degree in computer science and engineering and have since gained valuable experience working with cutting edge 
+                                technologies like datapower and google cloud. I also familier with java and IOT but I'm always eeager to learn new skills to expand my knowledge and stay up-to-date in
+this ever-evolving field. I invite here to explore my portfolio.
                             </span>0
                         </p>
                     </Col>

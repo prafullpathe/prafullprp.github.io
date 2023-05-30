@@ -15,7 +15,7 @@
 .calendarContainer .calendarBox > h3{
     text-align: center;
     /* border: 3px solid black; */
-    width: fit-content;
+    width: fitcontent;
     border-radius: 7px;
     padding: 1%;
     margin: auto;

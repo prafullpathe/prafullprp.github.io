@@ -28,7 +28,7 @@ const ContectLogo = () => {
 
           <li className="social-iconsTwo">
             <a
-              href="https://www.linkedin.com/in/sachin-pathe-2a2b231a0/"
+              href="https://www.linkedin.com/in/prafullpathe-011299"
               target="_blank"
               rel="noreferrer"
               className="icon-colourTwo  home-social-iconsTwo"
