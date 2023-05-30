@@ -26,7 +26,7 @@ const Callme = (props) => {
         <Modal.Body className="Home-Call-Img">
           <p style={{ fontSize: "2.5em", color: "#FFFFFF" }}>
             <span style={{ opacity: "0" }}>------------</span>
-            {"+ 9 1 9 6 9 1 7 3 9 3 5 5"}
+            {"+ 9 1 7 6 9 7 7 3 2 2 2 7"}
           </p>
         </Modal.Body>
       </Modal>
